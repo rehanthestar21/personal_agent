@@ -1,0 +1,52 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+*.iml
+.idea/shelf/
+.idea/workspace.xml
+
+# Android
+.gradle/
+local.properties
+**/build/
+*.apk
+*.aab
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+*.egg
+dist/
+build/
+*.db
+backend/.env
+backend/data/vertex_memory.db
+backend/data/notifications.jsonl
+backend/data/contacts.json
+backend/data/personal_context.md
+backend/data/delegation.json
+backend/data/fcm_tokens.json
+backend/mcp_servers/google_credentials.json
+backend/mcp_servers/google_token.json
+backend/mcp_servers/google_tts_key.json
+backend/mcp_servers/google-services.json
+backend/mcp_servers/whatsapp/auth_state/
+
+# Android — machine-specific and Firebase (use *.example in repo)
+android/local.properties
+android/app/google-services.json
+
+# Logs
+*.log
+logs/
+
+# Misc
+*.swp
+*.swo
+*~

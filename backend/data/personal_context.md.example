@@ -1,0 +1,6 @@
+# Optional seed for long-term memory (one fact per line)
+# Lines starting with # are ignored. Loaded once into SQLite on first run.
+# Copy to personal_context.md and edit for your profile.
+
+Name: Your Name
+User prefers short voice replies.

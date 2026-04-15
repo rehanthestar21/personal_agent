@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vertex</string>
+    <string name="notification_channel_hey_vertex">Hey Vertex</string>
+    <string name="notification_hey_vertex_title">Vertex</string>
+    <string name="notification_hey_vertex_text">Listening for \"Hey Vertex\"</string>
+    <string name="hey_vertex_toggle">Hey Vertex (hands-free)</string>
+    <string name="hey_vertex_toggle_summary">Say \"Hey Vertex\" to start a voice session. Uses more battery.</string>
+</resources>

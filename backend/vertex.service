@@ -1,0 +1,15 @@
+[Unit]
+Description=Vertex Backend
+After=network.target
+
+[Service]
+Type=simple
+User=rehan
+WorkingDirectory=/home/rehan/vertex/backend
+ExecStart=/home/rehan/vertex/backend/.venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 9000
+EnvironmentFile=/home/rehan/vertex/backend/.env
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
